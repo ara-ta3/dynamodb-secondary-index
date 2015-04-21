@@ -10,6 +10,9 @@ insert-seed:
 scan:
 	sh script/scan-table.sh
 
+scan-with-index:
+	sh script/scan-table-with-index.sh
+
 delete-table:
 	sh script/delete-table.sh
 
@@ -18,3 +21,6 @@ delete-index:
 
 describe-table:
 	sh script/describe-table.sh
+
+query-gametile-GalaxyInvaders:
+	sh script/query-gametitle.sh
