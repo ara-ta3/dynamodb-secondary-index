@@ -1,6 +1,11 @@
 dynamodb-secondary-index
 ===
 
+# Dependencies
+
+* aws cli (v1.7.23)
+* Java (1.8.0_25)
+
 # Install
 
 ```
@@ -15,4 +20,4 @@ make start
 
 # Global Secondary Index
 
-see `global-secondary-index` dir
+please see `global-secondary-index` dir
