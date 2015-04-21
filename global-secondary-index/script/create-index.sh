@@ -21,7 +21,8 @@ aws dynamodb update-table \
                     }
                 ],
                 "Projection": {
-                    "ProjectionType": "ALL"
+                    "ProjectionType": "INCLUDE",
+                    "NonKeyAttributes": ["UserId"]
                 },
                 "ProvisionedThroughput": {
                     "ReadCapacityUnits": 1,

@@ -22,5 +22,8 @@ delete-index:
 describe-table:
 	sh script/describe-table.sh
 
-query-gametile-GalaxyInvaders:
+query-gametitle-GalaxyInvaders:
 	sh script/query-gametitle.sh
+
+count-gametitle-GalaxyInvaders:
+	sh script/count-gametitle.sh
